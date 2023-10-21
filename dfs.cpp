@@ -56,6 +56,6 @@ int main(){
     g.insertEdge(2, 4);
     g.insertEdge(3, 4);
 
-    g.breadthFirstSearch(0);  //output: 0 1 4 3 2
+    g.breadthFirstSearch(0);  //output: 0 1 4 2 3
     return 0;
 }
